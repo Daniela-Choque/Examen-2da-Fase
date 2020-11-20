@@ -259,7 +259,7 @@ footer{
 
 }
 .cards .card{
-    background: base.$secundary;
+    background: base.$dark;
     @include base.espacio($just: false);
     width: 46%;
     height: 200px;

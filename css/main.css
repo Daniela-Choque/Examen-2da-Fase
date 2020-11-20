@@ -21,8 +21,8 @@ header {
   width: 100%;
   height: 875px;
   background: #ddd;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 37, 38, 0.459)), to(rgba(70, 68, 70, 0.664))), url("fondo.jpg");
-  background: linear-gradient(to right, rgba(39, 37, 38, 0.459), rgba(70, 68, 70, 0.664)), url("fondo.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 37, 38, 0.459)), to(rgba(54, 53, 54, 0.664))), url("fondo.jpg");
+  background: linear-gradient(to right, rgba(39, 37, 38, 0.459), rgba(54, 53, 54, 0.664)), url("fondo.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -318,7 +318,7 @@ footer {
 }
 
 .cards .card {
-  background: #cfcfcd;
+  background: #202020;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
