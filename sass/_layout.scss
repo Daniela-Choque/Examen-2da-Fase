@@ -1,0 +1,17 @@
+@use 'base';
+html{
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+body{
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}

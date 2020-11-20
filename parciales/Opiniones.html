@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Soda Line</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
+
+<body>
+    <header>
+        <div class="t">
+            <a href="#">Logo</a>
+            <div class="menu" id="ham"><a href="#">&#9776;</a></div>
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="Productos.html">Productos</a>
+                <a href="Opiniones.html">Opiniones</a>
+                <a href="Contactos.html">Contactos</a>
+                <a href="RegistrarProducto.php">Registrar Producto</a>
+                <a href="ListadoProducto.php">Lista de Productos</a>
+            </nav>
+            <section class="textos-header">
+                <h1>Soda Line</h1>
+                <h2>Refrescate</h2>
+            </section>
+    <!-----<div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg></div>-->
+</header>
+
+
+    <section class="clientes contenedor">
+            <h2 class="titulo">Opiniones de nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="../img/oUno.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Alejandra</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../img/oDos.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Lili</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cards">
+                    <div class="card">
+                        <img src="../img/oCuatro.jpg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>Sandra Lopez</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../img/oTres.jpg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>Alexis Marcos</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                        </div>
+                    </div>
+    
+                </div>
+        </section>
+
+    <main>
+    
+       
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Telefono</h4>
+                    <span class="fas fa-phone-alt"></span>
+                    <p>2613484</p>
+                </div>
+                <div class="content-foo">
+                    <h4>E-mail</h4>
+                    <span class="fas fa-envelope"></span>
+                    <p>sodaline@gmail.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Casa Matriz</h4>
+                    <span class="fas fa-map-marker-alt"></span>
+                    <p>Dir. Av. 6 de julio #2103</p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; SODA LINE</h2>
+        </footer>
+
+        <script src="js/jquery-3.5.1.js"></script>
+    <script >
+       $(()=>{
+        $("#ham").click(()=>{
+        $("nav").toggleClass("active");
+        });
+       });
+        </script>
+</body>
+
+</html>
