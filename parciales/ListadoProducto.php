@@ -72,8 +72,8 @@
           <a href="ListadoProducto.php">Lista de Productos</a>
       </nav>
 <section class="textos-header">
-    <h1>Express Lacteos</h1>
-    <h2>Distribuidora de Lacteos</h2>
+    <h1>Soda Line</h1>
+    <h2>Refrescate</h2>
 </section>
 <!-----<div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
         style="height: 100%; width: 100%;">

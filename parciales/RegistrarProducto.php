@@ -74,8 +74,8 @@
           <a href="ListadoProducto.php">Lista de Productos</a>
       </nav>
 <section class="textos-header">
-    <h1>Express Lacteos</h1>
-    <h2>Distribuidora de Lacteos</h2>
+    <h1>Soda Line</h1>
+    <h2>Refrescate</h2>
 </section>
 <!-----<div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
         style="height: 100%; width: 100%;">
@@ -140,7 +140,7 @@
             <div class="content-foo">
                 <h4 class="leta">E-mail</h4>
                 <span class="fas fa-envelope"></span>
-                <p>expresslacteos@gmail.com</p>
+                <p>sodaline@gmail.com</p>
             </div>
             <div class="content-foo">
                 <h4 class="leta">Casa Matriz</h4>
@@ -148,7 +148,7 @@
                 <p>Dir. Av. 6 de julio #2103</p>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; EXPRESS LACTEOS</h2>
+        <h2 class="titulo-final">&copy; SODA LINE</h2>
     </footer>
 
 
